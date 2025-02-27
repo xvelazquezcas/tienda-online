@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { ProductoComponent } from './listado-productos/producto/producto.component';
+import { MostrarMensjaeComponent } from './mostrar-mensaje/mostrar-mensaje.component';
 
 @Component({
   selector: 'app-root',
-  imports: [ProductoComponent],
+  imports: [MostrarMensjaeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
