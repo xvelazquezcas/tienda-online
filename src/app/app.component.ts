@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { MostrarMensjaeComponent } from './mostrar-mensaje/mostrar-mensaje.component';
+import { ProductoComponent } from './listado-productos/producto/producto.component';
+
 
 @Component({
   selector: 'app-root',
-  imports: [MostrarMensjaeComponent],
+  imports: [ProductoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
